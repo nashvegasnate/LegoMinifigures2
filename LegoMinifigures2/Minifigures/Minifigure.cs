@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 
 namespace LegoMinifigures2.MiniFigures
 {
+    //THIS IS COMPOSITION. Each time you instantiate a new Minifigure object, you must pass ALL THREE PROPERTIES. See line 72 of program.cs
     class Minifigure
     {
         HeadBase Head { get; } 
